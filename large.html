@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/70a8458758.js" crossorigin="anonymous"></script>
+    <title> Menu</title>
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+        }
+         .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .box1 {
+            height: 56px;
+            width: 100%;
+            background-color: #e85563;
+            display: flex;
+            color: white;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #items1 {
+            align-self: center;
+            padding: 76px;
+        }
+
+
+        #items2 {
+            align-self: center;
+            padding: 38px;
+        }
+        .box2{
+            display:flex;
+            justify-content: space-between;
+            /border:2px solid blueviolet;/
+          margin:29px;
+            
+
+        }
+       
+        .nav img{
+            width:40%;
+            height:60%;
+        }
+        #it1{
+            
+            align-self: flex-start;
+            
+        }
+        .nav a{
+            color: inherit;
+            text-decoration: none;
+            padding: 12px;
+           
+            font-size: 18px;
+            cursor: pointer;
+            color: #504a4a;
+            margin: 22px 34px;
+           /* border:2px solid green;*/
+            align-self: flex-end;
+          
+        }
+        a:hover{
+        color: #FF4B2B;
+        text-decoration: underline;
+    }
+        .name{
+            font-size:x-large;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .size{
+            background-color:rgba(231, 222, 222, 0.89);
+            border-radius: 10px;
+            padding: 3px;
+            padding-left: 10px;
+            padding-right:10px;
+            font-size: medium;
+            font-style: normal;   
+        }
+        .rupee{
+            font-size: large;
+            text-align:center;
+            font-weight: bolder;  
+        }
+        .add{
+            border: 2px orangered solid;
+            border-radius: 10px;
+            padding-left: 7px;
+            padding-right: 7px;
+            font-size:medium;
+            font-style:normal;
+            font-family:serif;
+            color: orangered;
+        }
+        .navi{
+            padding: 30px;
+            padding-bottom: 20px;
+            margin: 50px;
+            background-color: rgba(231, 222, 222, 0.89);
+            text-align: center;
+            font-size: large;
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .a {
+            text-decoration: none;
+            padding: 20px;
+            text-align: center;
+            color:black
+        }
+        .pizza{
+            display: grid;
+            grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            text-decoration: double;
+            grid-auto-columns: minmax(100px,auto);
+            grid-auto-rows: minmax(100px,auto);
+            text-align: center;
+            text-shadow: 3px ;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="items" id="items1">
+                <i class="fas fa-phone-alt"></i>
+                For Support? Call us:+91 9510997123 , +91 9558527798
+            </div>
+            <div class="items" id="items2">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp Us
+            </div>
+        </div>
+        <br>
+        <div class="box2">
+            <div class="nav" id="it1">
+                <img src="pizza/PROJECT_LOGO.jpg" alt="logo">
+            </div>
+            <div class="nav" id="it2">
+                <a href="index.html">HOME</a>
+            </div>
+            <div class="nav" id="it3">
+                <a href="small.html">MENU</a>
+           
+            </div>
+            <div class="nav" id="it4">
+                <a href="sign_upform.html">REGISTER</a>
+            </div>
+            <div class="nav" id="it5">
+                <a href="login_form.html">LOGIN</a>
+            </div>
+        </div>
+       
+
+        </div>
+
+    </div>
+    
+    <nav class="navi">
+
+        <a href="small.html" class="a">Small</a>&nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;
+        <a href="medium.html" class="a">Medium</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="large.html" class="a">Large</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Beverages.html" class="a">Beverages</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="sides.html" class="a">sides</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+    </nav>
+   <div class="pizza">
+       <div class="item20" id="item-1">
+          <img class=" img" src="pizza/sh_pizzeria_ special.jpg" alt="Sh-pizzeria special" width="250px" height="250px">
+          <p class="name">Sh pizzeria special</p>
+          <span class="size" > Large</span>
+          <p class="rupee">  &#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>
+          
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/CornCheese.jpg" alt="CornCheese" width="250px" height="250px">
+            <p class="name">CornCheese</p>
+            <span class="size" > Large</span>
+            <p class="rupee">  &#8377 750 &#160  &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p> 
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Deluxe_Veggie.jpg" alt="Deluxe Veggie" width="250px" height="250px">
+            <p class="name">Deluxe Veggie</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/farmhouse.jpg" alt="Farmhouse" width="250px" height="250px">
+            <p class="name">Farmhouse</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Double_Cheese_Margherita.jpg" alt="Double Cheese Margherita" width="250px" height="250px">
+            <p class="name">Double Cheese Margherita</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add" >Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/IndianTandooriPaneer.jpg" alt="IndianTandooriPaneer" width="250px" height="250px">
+            <p class="name">IndianTandooriPaneer</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Mexican_Green_Wave.jpg" alt="Mexican Green Wave" width="250px" height="250px">
+            <p class="name">Mexican Green Wave</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Paneer_Makhni.jpg" alt="Paneer Makhni" width="250px" height="250px">
+            <p class="name">Paneer Makhni</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Peri-Peri.png" alt="Peri Peri" width="250px" height="250px">
+            <p class="name">Peri Peri</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Peppy_Paneer.jpg" alt="Peppy Paneer" width="250px" height="250px">
+            <p class="name">Peppy Paneer</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Rominus_pizza.jpg" alt="Rominus pizza" width="250px" height="250px">
+            <p class="name">Rominus pizza</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/szechuan_pizza.png" alt="Szechuan pizza" width="250px" height="250px">
+            <p class="name">Szechuan pizza</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/veg_loaded.jpg" alt="Veg loaded" width="250px" height="250px">
+            <p class="name">Veg loaded</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Cheese_Burst.jpg" alt="Cheese Burst" width="250px" height="250px">
+            <p class="name">Cheese Burst</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+        <div class="item20" id="item-1">
+            <img class=" img" src="pizza/Burger_Pizza.jpg" alt="Burger Pizza" width="250px" height="250px">
+            <p class="name">Burger Pizza</p>
+            <span class="size" > Large</span>
+            <p class="rupee">&#8377 750 &#160 &#160 &#160 &#160 &#160 &#160<span class="add">Add+</span></p>  
+        </div>
+   </div>
+   
+</body>
+</html>
